@@ -2,14 +2,14 @@
 
 ## How do I install these formulae?
 
-`brew install ashant/ashant/<formula>`
+`brew install prashantbhudwal/tap/<formula>`
 
-Or `brew tap ashant/ashant` and then `brew install <formula>`.
+Or `brew tap prashantbhudwal/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "ashant/ashant"
+tap "prashantbhudwal/tap"
 brew "<formula>"
 ```
 
