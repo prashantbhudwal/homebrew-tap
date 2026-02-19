@@ -1,9 +1,9 @@
 class Injectbook < Formula
   desc "Convert books into Codex-compatible skills with Node.js and Calibre"
   homepage "https://github.com/prashantbhudwal/injectbook"
-  version "0.1.0"
-  url "https://github.com/prashantbhudwal/injectbook/releases/download/v0.1.0/injectbook-v0.1.0-darwin-arm64.tar.gz"
-  sha256 "78699b3b8a193f361211424e1b8f96b5dd80da81f6e1a0533bc7132fbffe16af"
+  version "0.2.0"
+  url "https://github.com/prashantbhudwal/injectbook/releases/download/v0.2.0/injectbook-v0.2.0-darwin-arm64.tar.gz"
+  sha256 "98ee6b1ce35a8427e9f61f841bde211250a58836d0a49196efb08fb17e32737b"
   license "MIT"
 
   depends_on "node"
