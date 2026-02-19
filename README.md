@@ -1,18 +1,38 @@
-# Ashant Ashant
+# prashantbhudwal/homebrew-tap
 
-## How do I install these formulae?
+Homebrew tap for personal formulas.
 
-`brew install prashantbhudwal/tap/<formula>`
+## Install injectbook
 
-Or `brew tap prashantbhudwal/tap` and then `brew install <formula>`.
+```bash
+brew tap prashantbhudwal/tap
+brew install --cask calibre
+brew install injectbook
+injectbook --version
+```
 
-Or, in a `brew bundle` `Brewfile`:
+## Generic install pattern
+
+```bash
+brew install prashantbhudwal/tap/<formula>
+```
+
+Or:
+
+```bash
+brew tap prashantbhudwal/tap
+brew install <formula>
+```
+
+## Brewfile usage
 
 ```ruby
 tap "prashantbhudwal/tap"
-brew "<formula>"
+brew "injectbook"
 ```
 
-## Documentation
+## Docs
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- `brew help`
+- `man brew`
+- [https://docs.brew.sh](https://docs.brew.sh)
